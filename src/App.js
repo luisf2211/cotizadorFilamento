@@ -1,7 +1,7 @@
 import './App.css';
 import './utils/constants'
 import { useState } from "react";
-import { BOLSA, CANTIDAD_GRAMOS, COSTO_X_FILAMENTO, COURIER_X_FILAMENTO, STICKER, TARJETA } from './utils/constants';
+import { BOLSA, CANTIDAD_GRAMOS, COSTO_X_FILAMENTO, COURIER_X_FILAMENTO, MONEDA, STICKER, TARJETA } from './utils/constants';
 
 function App() {
   
@@ -28,22 +28,22 @@ function App() {
         
         <div className="row row-cols-2">
             <div className="col">Courier</div>
-            <div className="col">{'RD$' + Math.round(courier)}</div>
+            <div className="col">{MONEDA + Math.round(courier)}</div>
             <div className="col">Filamento</div>
-            <div className="col">{'RD$' + Math.round(costoFilamento)}</div>
+            <div className="col">{MONEDA + Math.round(costoFilamento)}</div>
 
             <div className="col">Electricidad</div>
             <div className="col"> - </div>
             <div className="col">Bolsa</div>
-            <div className="col">{'RD$' + bolsa}</div>
+            <div className="col">{MONEDA + bolsa}</div>
 
             <div className="col">Tarjeta</div>
-            <div className="col">{'RD$' + tarjeta}</div>
+            <div className="col">{MONEDA + tarjeta}</div>
             <div className="col">Sticker</div>
-            <div className="col">{'RD$' + sticker}</div>
+            <div className="col">{MONEDA + sticker}</div>
 
             <div className="col" id='total' >Total</div>
-            <div className="col" id='total'>{'RD$' + Math.round(total)}</div>
+            <div className="col" id='total'>{MONEDA + Math.round(total)}</div>
           </div>
         </div>
         <br/>
