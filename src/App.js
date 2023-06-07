@@ -43,7 +43,7 @@ function App() {
             <div className="col">{'RD$' + sticker}</div>
 
             <div className="col" id='total' >Total</div>
-            <div className="col" id='total'>{'RD$' + total}</div>
+            <div className="col" id='total'>{'RD$' + Math.round(total)}</div>
           </div>
         </div>
         <br/>
