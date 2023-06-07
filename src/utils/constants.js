@@ -5,4 +5,4 @@ export const COSTO_X_FILAMENTO = 823.00;
 export const BOLSA = 8.22;
 export const TARJETA = 6.50;
 export const STICKER = 3.00;    
-export const MONEDA = '$RD';
+export const MONEDA = 'RD$';
