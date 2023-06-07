@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cotizadorFilamento/static/css/main.786a9446.css",
-    "main.js": "/cotizadorFilamento/static/js/main.37d4e551.js",
+    "main.js": "/cotizadorFilamento/static/js/main.b63c8a9c.js",
     "index.html": "/cotizadorFilamento/index.html",
     "main.786a9446.css.map": "/cotizadorFilamento/static/css/main.786a9446.css.map",
-    "main.37d4e551.js.map": "/cotizadorFilamento/static/js/main.37d4e551.js.map"
+    "main.b63c8a9c.js.map": "/cotizadorFilamento/static/js/main.b63c8a9c.js.map"
   },
   "entrypoints": [
     "static/css/main.786a9446.css",
-    "static/js/main.37d4e551.js"
+    "static/js/main.b63c8a9c.js"
   ]
 }
