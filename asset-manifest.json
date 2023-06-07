@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cotizadorFilamento/static/css/main.786a9446.css",
+    "main.js": "/cotizadorFilamento/static/js/main.6275450a.js",
+    "index.html": "/cotizadorFilamento/index.html",
+    "main.786a9446.css.map": "/cotizadorFilamento/static/css/main.786a9446.css.map",
+    "main.6275450a.js.map": "/cotizadorFilamento/static/js/main.6275450a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.786a9446.css",
+    "static/js/main.6275450a.js"
+  ]
+}
