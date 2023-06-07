@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.form-control
+{
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.container {
+  border: 1px solid grey;
+  width: 60%;
+}
+
+.col{
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+#total{ 
+  background-color: #FFE599;
+}
