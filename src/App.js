@@ -22,8 +22,6 @@ function App() {
             <h1>Cotizador</h1>
           <br/>
         
-        <hr/>
-        
         <div className="container text-center">
         
         <div className="row row-cols-2">
